@@ -16,7 +16,7 @@ h2 {
 }
 
 h3 {
-    font-family: 'Montserrat-Black', sans-serif;
+    font-family: 'Montserrat-Bold', sans-serif;
     font-size: 1.5rem;
     font-weight: 900;
     line-height: 1.5;
@@ -140,6 +140,39 @@ h3 {
 
 .pricing-column {
     padding: 3% 2%;
+}
+
+/* Call to Action Section */
+
+#cta {
+    background-color: #FF4C68;
+    text-align: center;
+    padding: 7% 15%;
+}
+
+.cta-heading {
+    color: #FFF;
+    font-family: 'Montserrat-Black', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    padding: 2rem;
+}
+
+/* Footer Section */
+
+#footer {
+    background-color: #FFF;
+    text-align: center;
+    padding: 7% 15%;
+}
+
+.footer-icon {
+    margin: 20px 10px;
+}
+
+.footer-text {
+    color: #8f8f8f;
+    font-family: 'Ubuntu';
 }
 
 /* Media Query */

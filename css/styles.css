@@ -1,25 +1,35 @@
 body {
     font-family: 'Montserrat';
+    text-align: center;
 }
 
-h1 {
-    font-family: 'Montserrat-Black', sans-serif;
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat-Bold', sans-serif;
+    font-weight: 900;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+/* Headings */
+
+.big-heading {
     font-size: 3.5rem;
     line-height: 1.5;
     font-weight: 900;
 }
 
-h2 {
-    font-family: 'Montserrat-Black', sans-serif;
+.section-heading {
     font-size: 3rem;
     font-weight: 900;
+    line-height: 1.5;
 }
 
-h3 {
-    font-family: 'Montserrat-Bold', sans-serif;
-    font-size: 1.5rem;
-    font-weight: 900;
-    line-height: 1.5;
+/* Containers */
+
+.container-fluid {
+    padding: 7% 15%;
 }
 
 /* Navigation Bar */
@@ -48,9 +58,10 @@ h3 {
 #title {
     background-color: #FF4C68;
     color: #FFF;
+    text-align: left;
 }
 
-.container-fluid {
+#title .container-fluid {
     padding: 3% 15% 7%;
 }
 
@@ -71,12 +82,10 @@ h3 {
 
 #features {
     background-color: #FFF;
-    padding: 7% 15%;
     position: relative;
 }
 
 .feature-box {
-    text-align: center;
     padding: 4.5%;
 }
 
@@ -90,9 +99,7 @@ h3 {
 }
 
 .feature-head {
-    font-family: 'Montserrat-Black', sans-serif;
     font-size: 1.5rem;
-    font-weight: 900;
     padding: 1%;
 }
 
@@ -105,7 +112,6 @@ h3 {
 #testimonials {
     background-color: #FF4C68;
     color: #FFF;
-    text-align: center;
 }
 
 .testimonial-img {
@@ -114,8 +120,10 @@ h3 {
     width: 10%;
 }
 
-.carousel-item {
-    padding: 7% 15%;
+.testimonial-text {
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 1.5;
 }
 
 /* Press Section */
@@ -123,7 +131,6 @@ h3 {
 #press {
     background-color: #FF4C68;
     padding-bottom: 3%;
-    text-align: center;
 }
 
 .press-logo {
@@ -135,24 +142,29 @@ h3 {
 
 #pricing {
     padding: 100px;
-    text-align: center;
 }
 
 .pricing-column {
     padding: 3% 2%;
 }
 
+.pricing-title {
+    font-size: 1.5rem;
+}
+
+.price-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
 /* Call to Action Section */
 
 #cta {
+    color: #FFF;
     background-color: #FF4C68;
-    text-align: center;
-    padding: 7% 15%;
 }
 
 .cta-heading {
-    color: #FFF;
-    font-family: 'Montserrat-Black', sans-serif;
     font-size: 3.5rem;
     line-height: 1.5;
     padding: 2rem;
@@ -162,8 +174,6 @@ h3 {
 
 #footer {
     background-color: #FFF;
-    text-align: center;
-    padding: 7% 15%;
 }
 
 .footer-icon {
@@ -171,7 +181,6 @@ h3 {
 }
 
 .footer-text {
-    color: #8f8f8f;
     font-family: 'Ubuntu';
 }
 

@@ -51,12 +51,14 @@ h3 {
 }
 
 .container-fluid {
-    padding: 3% 15%;
+    padding: 3% 15% 7%;
 }
 
 .iphone-img {
+    max-width: 60%;
+    position: absolute;
     transform: rotate(25deg);
-    width: 60%;
+    right: 26%;
 }
 
 /* Download Buttons */
@@ -68,7 +70,9 @@ h3 {
 /* Features Section */
 
 #features {
+    background-color: #FFF;
     padding: 7% 15%;
+    position: relative;
 }
 
 .feature-box {
@@ -136,4 +140,17 @@ h3 {
 
 .pricing-column {
     padding: 3% 2%;
+}
+
+/* Media Query */
+
+@media (max-width: 1320px) {
+    #title {
+        text-align: center;
+    }
+    
+    .iphone-img {
+        position: static;
+        transform: rotate(0);
+    }
 }
